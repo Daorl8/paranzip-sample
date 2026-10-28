@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>파란집 | 대구 중구 휘낭시에 · 치즈케이크 · 답례품 선물 상자</title>
+<meta name="description" content="좋은 재료와 제철의 맛을 담아 매일 직접 디저트를 만드는 파란집. 프랑스산 고메버터와 100% 동물성 생크림, 직접 만든 제철 과일 청과 잼. 답례품 · 선물 상자 문의 0507-1335-2691." />
+<link rel="canonical" href="https://paranzip-sample.lgt3232.workers.dev/" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:site_name" content="파란집" />
+<meta property="og:title" content="파란집 · 답례품으로 좋은 휘낭시에 선물 상자" />
+<meta property="og:description" content="좋은 재료와 제철의 맛을 담아 매일 직접 만드는 대구 중구 디저트 카페." />
+<meta property="og:url" content="https://paranzip-sample.lgt3232.workers.dev/" />
+<meta property="og:image" content="https://paranzip-sample.lgt3232.workers.dev/og-paranzip.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="theme-color" content="#FFFFFF" />
+<link rel="icon" href="favicon.png" type="image/png" />
+<!-- 시안 도메인 = paranzip-sample.lgt3232.workers.dev. 고객 인계 시 grep lgt3232 → canonical·og:url·og:image·JSON-LD url/image 5곳 치환 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "파란집",
+  "url": "https://paranzip-sample.lgt3232.workers.dev/",
+  "image": "https://paranzip-sample.lgt3232.workers.dev/og-paranzip.jpg",
+  "telephone": "+82-507-1335-2691",
+  "address": { "@type": "PostalAddress", "streetAddress": "국채보상로 704-11 1층", "addressLocality": "중구", "addressRegion": "대구광역시", "addressCountry": "KR" },
+  "sameAs": ["https://www.instagram.com/paran_zip/"]
+}
+</script>
+<style>
+@font-face{ font-family:"PZ Serif"; font-weight:400; font-display:swap; src:url("pz-myeongjo.woff2") format("woff2"); }
+@font-face{ font-family:"PZ Serif"; font-weight:700; font-display:swap; src:url("pz-myeongjo-bold.woff2") format("woff2"); }
+@font-face{ font-family:"PZ Sans"; font-weight:400 700; font-display:swap; src:url("pz-pretendard.woff2") format("woff2"); }
+
+:root{
+  --bg:#FFFFFF;
+  --mist:#EEF4FA;        /* 아주 옅은 파랑 면 */
+  --ink:#1F2328;         /* 15.8:1 */
+  --soft:#5C636B;        /* 6.1:1 */
+  --blue:#539ED8;        /* 로고 지붕 실측 · 2.9:1 → 선 · 면 · 큰 장식에만 */
+  --blue-ink:#2A64A0;    /* 글자 · 버튼용 파랑 6.1:1 (흰 글자도 6.1:1) */
+  --line:#E3E7EC;
+  --serif:"PZ Serif","PZ Sans",-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --sans:"PZ Sans",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --wrap:1160px;
+}
+*,*::before,*::after{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; }
+body{ margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); font-size:16px; line-height:1.7; word-break:keep-all; overflow-wrap:break-word; }
+img{ max-width:100%; height:auto; display:block; }
+a{ color:inherit; text-decoration:none; }
+h1,h2,h3,p{ margin:0; }
+:focus-visible{ outline:2px solid var(--blue-ink); outline-offset:3px; }
+.wrap{ width:min(100% - 40px, var(--wrap)); margin:0 auto; }
+.sec{ padding:84px 0; }
+@media (min-width:900px){ .sec{ padding:128px 0; } }
+
+/* 선물 태그 라벨 (구멍 + 테두리) */
+.tag{ display:inline-flex; align-items:center; gap:8px; border:1px solid var(--blue); color:var(--blue-ink); padding:4px 12px 4px 10px; border-radius:2px; font-size:.74rem; font-weight:600; letter-spacing:.16em; text-transform:uppercase; }
+.tag::before{ content:""; width:6px; height:6px; border:1px solid var(--blue); border-radius:50%; }
+.sr{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+.head{ max-width:640px; }
+.head h2{ font-family:var(--serif); font-weight:400; font-size:clamp(1.75rem,4.2vw,2.6rem); line-height:1.35; margin-top:18px; letter-spacing:-.01em; }
+.head p{ margin-top:14px; color:var(--soft); }
+
+/* 버튼 */
+.btn{ display:inline-flex; align-items:center; justify-content:center; min-height:50px; padding:0 22px; border:1px solid var(--ink); border-radius:2px; font-size:.95rem; font-weight:600; transition:background .2s ease, color .2s ease, border-color .2s ease; }
+.btn.fill{ background:var(--blue-ink); border-color:var(--blue-ink); color:#fff; }
+@media (hover:hover){ .btn:not(.fill):hover{ background:var(--ink); color:#fff; } .btn.fill:hover{ background:var(--ink); border-color:var(--ink); } }
+
+/* 헤더 */
+.site-head{ position:sticky; top:0; z-index:50; background:rgba(255,255,255,.96); border-bottom:1px solid var(--line); }
+.site-head .wrap{ display:flex; align-items:center; justify-content:space-between; height:66px; }
+.brand img{ height:30px; width:auto; }
+.nav{ display:none; gap:30px; font-size:.86rem; font-weight:600; letter-spacing:.08em; }
+.nav a{ padding:6px 0; border-bottom:1px solid transparent; }
+@media (hover:hover){ .nav a:hover{ border-color:var(--blue); } }
+.head-call{ font-size:.86rem; font-weight:600; color:var(--blue-ink); }
+@media (min-width:900px){ .nav{ display:flex; } }
+
+/* 히어로 */
+.hero{ padding:48px 0 84px; }
+.hero .wrap{ display:grid; gap:40px; align-items:center; }
+@media (min-width:900px){ .hero{ padding:72px 0 120px; } .hero .wrap{ grid-template-columns:5fr 6fr; gap:64px; } }
+.hero h1{ font-family:var(--serif); font-weight:400; font-size:clamp(2.1rem,5.6vw,3.5rem); line-height:1.3; letter-spacing:-.02em; margin-top:22px; }
+.hero h1 b{ font-weight:400; color:var(--blue-ink); }
+.hero .lead{ margin-top:22px; color:var(--soft); max-width:27em; }
+.hero .cta{ display:flex; flex-wrap:wrap; gap:8px; margin-top:32px; }
+.hero .items{ margin-top:30px; padding-top:18px; border-top:1px solid var(--line); font-size:.86rem; color:var(--soft); letter-spacing:.02em; }
+.hero figure{ margin:0; }
+.hero figure img{ width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:2px; }
+.hero figcaption{ margin-top:10px; font-size:.8rem; color:var(--soft); }
+
+/* 선물 */
+.gift-sec{ background:var(--mist); }
+.gift-g{ display:grid; gap:14px; margin-top:48px; }
+@media (min-width:760px){ .gift-g{ grid-template-columns:4fr 5fr; grid-template-rows:auto auto; gap:20px; } .gift-g .tall{ grid-row:span 2; } }
+.gift-g figure{ margin:0; background:var(--bg); padding:12px 12px 16px; border-radius:2px; }
+.gift-g img{ width:100%; object-fit:cover; border-radius:2px; }
+.gift-g .tall .ph{ position:relative; aspect-ratio:4/5; }
+.gift-g .tall .ph img{ position:absolute; inset:0; width:100%; height:100%; }
+@media (min-width:760px){ .gift-g .tall{ display:flex; flex-direction:column; } .gift-g .tall .ph{ flex:1; aspect-ratio:auto; min-height:320px; } }
+.gift-g .wide img{ aspect-ratio:4/3; }
+.gift-g figcaption{ display:flex; justify-content:space-between; gap:12px; margin-top:12px; font-size:.92rem; }
+.gift-g figcaption span{ color:var(--soft); font-size:.84rem; }
+.order{ margin-top:40px; display:grid; gap:20px; align-items:center; background:var(--bg); border:1px solid var(--line); padding:26px 24px; border-radius:2px; }
+@media (min-width:760px){ .order{ grid-template-columns:1fr auto; padding:30px 36px; } }
+.order h3{ font-family:var(--serif); font-weight:700; font-size:1.2rem; }
+.order p{ margin-top:6px; color:var(--soft); font-size:.94rem; }
+.order .links{ display:flex; flex-wrap:wrap; gap:8px; }
+
+/* 재료 */
+.about .wrap{ display:grid; gap:44px; }
+@media (min-width:900px){ .about .wrap{ grid-template-columns:1fr 1fr; gap:72px; align-items:center; } }
+.about blockquote{ margin:22px 0 0; font-family:var(--serif); font-size:clamp(1.35rem,3vw,1.8rem); line-height:1.6; }
+.about blockquote b{ font-weight:400; color:var(--blue-ink); }
+.facts{ list-style:none; margin:34px 0 0; padding:0; border-top:1px solid var(--ink); }
+.facts li{ display:grid; grid-template-columns:120px 1fr; gap:14px; padding:16px 0; border-bottom:1px solid var(--line); }
+.facts li b{ font-family:var(--serif); font-weight:700; }
+.facts li span{ color:var(--soft); }
+.about .pics{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.about .pics img{ width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:2px; }
+.about .pics img:last-child{ margin-top:48px; }
+
+/* 휘낭시에 · 치즈케이크 */
+.menu-sec + .menu-sec{ padding-top:0; }
+.lead-pic{ margin-top:44px; }
+.lead-pic img{ width:100%; aspect-ratio:16/10; object-fit:cover; border-radius:2px; }
+.grid4{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px; }
+@media (min-width:900px){ .grid4{ grid-template-columns:repeat(4,1fr); gap:16px; margin-top:16px; } }
+.grid4 img{ width:100%; aspect-ratio:1; object-fit:cover; border-radius:2px; }
+.cc .grid4{ margin-top:44px; }
+.grid4 figure{ margin:0; }
+.grid4 figcaption{ margin-top:10px; font-size:.9rem; }
+.note{ margin-top:22px; font-size:.88rem; color:var(--soft); }
+
+/* 공간 · 오시는 길 */
+.space{ display:grid; gap:12px; margin-top:44px; }
+@media (min-width:900px){ .space{ grid-template-columns:2fr 1fr 1fr; gap:16px; } }
+.space img{ width:100%; height:100%; aspect-ratio:4/3; object-fit:cover; border-radius:2px; }
+@media (min-width:900px){ .space img{ aspect-ratio:auto; max-height:420px; } }
+.visit{ display:grid; gap:36px; margin-top:56px; }
+@media (min-width:900px){ .visit{ grid-template-columns:1fr 1fr; gap:56px; } }
+.info{ margin:0; border-top:1px solid var(--ink); }
+.info > div{ display:grid; grid-template-columns:92px 1fr; gap:14px; padding:16px 0; border-bottom:1px solid var(--line); }
+.info dt{ font-weight:600; font-size:.92rem; }
+.info dd{ margin:0; }
+.info dd small{ display:block; color:var(--soft); font-size:.86rem; margin-top:4px; }
+.info a{ color:var(--blue-ink); }
+.visit .links{ display:flex; flex-wrap:wrap; gap:8px; margin-top:22px; }
+.mapframe{ width:100%; height:340px; border:1px solid var(--line); border-radius:2px; }
+@media (min-width:900px){ .mapframe{ height:100%; min-height:440px; } }
+
+/* 푸터 */
+.foot{ border-top:1px solid var(--line); padding:48px 0 120px; text-align:center; font-size:.84rem; color:var(--soft); }
+@media (min-width:900px){ .foot{ padding:56px 0; } }
+.foot img{ width:44px; margin:0 auto 14px; }
+
+/* 모바일 하단 바: 전화 문의(주) · 인스타그램 · 길찾기 */
+.quick{ position:fixed; left:0; right:0; bottom:0; z-index:60; display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:6px; padding:8px 10px calc(8px + env(safe-area-inset-bottom)); background:rgba(255,255,255,.97); border-top:1px solid var(--line); }
+.quick a{ display:flex; align-items:center; justify-content:center; min-height:48px; border:1px solid var(--ink); border-radius:2px; font-size:.86rem; font-weight:600; }
+.quick a.fill{ background:var(--blue-ink); border-color:var(--blue-ink); color:#fff; }
+@media (min-width:900px){ .quick{ display:none; } }
+
+/* 리빌: setInterval 구동 */
+.js .reveal{ opacity:0; transform:translateY(18px); transition:opacity .5s ease, transform .5s cubic-bezier(.2,.7,.2,1); transition-delay:var(--d,0s); }
+.js .reveal.in{ opacity:1; transform:none; }
+@media print{ .js .reveal{ opacity:1; transform:none; } }
+</style>
+<noscript><style>.reveal{ opacity:1 !important; transform:none !important; }</style></noscript>
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="파란집 처음으로"><img src="pz-logo.webp" alt="파란집" width="600" height="195" /></a>
+    <nav class="nav" aria-label="주요 메뉴"><a href="#gift">GIFT</a><a href="#about">ABOUT</a><a href="#financier">FINANCIER</a><a href="#cheesecake">CHEESECAKE</a><a href="#visit">VISIT</a></nav>
+    <a class="head-call" href="tel:050713352691">선물 문의</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div class="reveal">
+        <span class="tag">Dessert &amp; Gift</span>
+        <h1>고마운 마음을<br /><b>파란집 상자</b>에 담아</h1>
+        <p class="lead">좋은 재료와 제철의 맛을 담아 매일 직접 디저트를 만드는 파란집입니다.</p>
+        <div class="cta">
+          <a class="btn fill" href="tel:050713352691">답례품 · 선물 문의</a>
+          <a class="btn" href="#gift">선물 상자 보기</a>
+        </div>
+        <p class="items">휘낭시에 · 치즈케이크 · 답례품 상자 &nbsp;|&nbsp; 대구 중구</p>
+      </div>
+      <figure class="reveal" style="--d:.1s">
+        <img src="pz-hero.webp" alt="여러 맛의 휘낭시에가 담긴 흰 상자와 파란집 로고가 찍힌 상자 뚜껑" width="1600" height="1199" />
+      </figure>
+    </div>
+  </section>
+
+  <section class="sec gift-sec" id="gift" aria-labelledby="gift-h">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="tag">Gift</span>
+        <h2 id="gift-h">답례품 · 선물 상자</h2>
+        <p>여러 맛을 골고루 담아, 받는 분이 열어 보는 순간까지 생각해 포장해요.</p>
+      </div>
+      <div class="gift-g">
+        <figure class="tall reveal">
+          <div class="ph"><img loading="lazy" src="pz-gift-twine.webp" alt="끈으로 묶고 파란집 태그를 단 흰 포장 용기 세 개" width="1000" height="1250" /></div>
+          <figcaption>끈 포장<span>태그를 달아 하나씩</span></figcaption>
+        </figure>
+        <figure class="wide reveal">
+          <img loading="lazy" src="pz-gift-ribbon.webp" alt="남색 리본으로 감싼 상자와 휘낭시에 다섯 개가 담긴 흰 상자" width="1000" height="747" />
+          <figcaption>리본 포장<span>특별한 날 선물로</span></figcaption>
+        </figure>
+        <figure class="wide reveal">
+          <img loading="lazy" src="pz-gift-bulk.webp" alt="같은 구성의 휘낭시에가 담긴 흰 상자 여러 개" width="1000" height="750" />
+          <figcaption>단체 답례품<span>같은 구성으로 여러 상자</span></figcaption>
+        </figure>
+      </div>
+      <div class="order reveal">
+        <div>
+          <h3>답례품 · 단체 주문 문의</h3>
+          <p>수량과 받으실 날짜를 알려주시면 구성과 포장을 함께 상의해 드려요.</p>
+        </div>
+        <div class="links">
+          <a class="btn fill" href="tel:050713352691">전화 문의</a>
+          <a class="btn" href="https://www.instagram.com/paran_zip/" target="_blank" rel="noopener">인스타그램 DM</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec about" id="about" aria-labelledby="about-h">
+    <div class="wrap">
+      <div class="reveal">
+        <span class="tag">About</span>
+        <h2 id="about-h" class="sr">재료 이야기</h2>
+        <blockquote>프랑스산 <b>고메버터</b>와 100% <b>동물성 생크림</b>을 사용하고, 제철 과일로 <b>청과 잼</b>을 직접 만듭니다.</blockquote>
+        <ul class="facts">
+          <li><b>버터</b><span>프랑스산 고메버터</span></li>
+          <li><b>생크림</b><span>100% 동물성 생크림</span></li>
+          <li><b>청 · 잼</b><span>제철 과일로 직접</span></li>
+        </ul>
+      </div>
+      <div class="pics reveal" style="--d:.1s">
+        <img loading="lazy" src="pz-peach.webp" alt="스테인리스 볼에 가득 담긴 복숭아" width="1000" height="1250" />
+        <img loading="lazy" src="pz-fin-almond.webp" alt="아몬드를 올려 구운 휘낭시에가 줄지어 놓인 모습" width="800" height="1000" />
+      </div>
+    </div>
+  </section>
+
+  <section class="sec menu-sec" id="financier" aria-labelledby="fin-h">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="tag">Financier</span>
+        <h2 id="fin-h">매일 굽는 휘낭시에</h2>
+        <p>여러 맛의 휘낭시에를 매일 직접 구워요. 하나씩 고르기도, 상자에 골고루 담기도 좋아요.</p>
+      </div>
+      <div class="lead-pic reveal"><img loading="lazy" src="pz-fin-tray.webp" alt="나무 상자 두 칸에 가득 담긴 여러 맛의 휘낭시에" width="1100" height="774" /></div>
+      <div class="grid4">
+        <img class="reveal" loading="lazy" src="pz-fin-plate.webp" alt="접시 위에 나란히 놓인 다섯 가지 맛 휘낭시에" width="900" height="900" />
+        <img class="reveal" loading="lazy" src="pz-fin-two.webp" alt="하늘색 접시에 올린 휘낭시에 두 개" width="900" height="900" />
+        <img class="reveal" loading="lazy" src="pz-fin-choco.webp" alt="초콜릿을 입힌 휘낭시에" width="900" height="900" />
+        <img class="reveal" loading="lazy" src="pz-fin-glass.webp" alt="유리컵에 꽂아 둔 휘낭시에 두 개" width="900" height="900" />
+      </div>
+    </div>
+  </section>
+
+  <section class="sec menu-sec cc" id="cheesecake" aria-labelledby="cc-h">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="tag">Cheesecake</span>
+        <h2 id="cc-h">치즈케이크</h2>
+        <p>진하게 구운 바스크 치즈케이크부터 제철 과일을 올린 치즈케이크까지.</p>
+      </div>
+      <div class="grid4">
+        <figure class="reveal"><img loading="lazy" src="pz-cc-basque.webp" alt="겉이 진하게 구워진 바스크 치즈케이크 한 조각" width="900" height="900" /><figcaption>바스크 치즈케이크</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="pz-cc-fig.webp" alt="무화과를 올린 하얀 치즈케이크" width="900" height="900" /><figcaption>무화과</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="pz-cc-fruit.webp" alt="노란 과일을 듬뿍 올린 치즈케이크" width="900" height="900" /><figcaption>제철 과일</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="pz-cc-blueberry.webp" alt="블루베리 소스를 올린 치즈케이크" width="870" height="870" /><figcaption>블루베리</figcaption></figure>
+      </div>
+      <p class="note reveal">그날 준비된 케이크와 휘낭시에는 인스타그램 소식에서 먼저 알려드려요.</p>
+    </div>
+  </section>
+
+  <section class="sec gift-sec" id="visit" aria-labelledby="visit-h">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="tag">Visit</span>
+        <h2 id="visit-h">파란 지붕 간판을 찾아오세요</h2>
+      </div>
+      <div class="space">
+        <img class="reveal" loading="lazy" src="pz-room.webp" alt="창가 테이블과 나무 진열대가 있는 밝은 매장 안" width="1400" height="787" />
+        <img class="reveal" loading="lazy" src="pz-sign.webp" alt="건물 벽에 걸린 파란집 돌출 간판" width="900" height="1125" />
+        <img class="reveal" loading="lazy" src="pz-cups.webp" alt="선반 위에 놓인 하늘색 구름 무늬 컵 두 개" width="900" height="900" />
+      </div>
+      <div class="visit">
+        <div class="reveal">
+          <dl class="info">
+            <div><dt>주소</dt><dd>대구 중구 국채보상로 704-11 1층<small>중구청 건너 가구점과 한식집 사이 골목으로 들어와 직진하면 보이는 1층 건물이에요.</small></dd></div>
+            <div><dt>지하철</dt><dd>2호선 경대병원역 4번 출구에서 약 900m</dd></div>
+            <div><dt>영업시간</dt><dd>20:00 영업 종료<small>요일별 시간과 휴무는 네이버 플레이스와 인스타그램에서 안내해요.</small></dd></div>
+            <div><dt>전화</dt><dd><a href="tel:050713352691">0507-1335-2691</a></dd></div>
+            <div><dt>인스타그램</dt><dd><a href="https://www.instagram.com/paran_zip/" target="_blank" rel="noopener">@paran_zip</a></dd></div>
+          </dl>
+          <div class="links">
+            <a class="btn fill" href="tel:050713352691">전화 문의</a>
+            <a class="btn" href="https://map.naver.com/p/entry/place/2035292623" target="_blank" rel="noopener">네이버 길찾기</a>
+            <a class="btn" href="https://www.instagram.com/paran_zip/" target="_blank" rel="noopener">인스타그램</a>
+          </div>
+        </div>
+        <iframe class="mapframe reveal" title="파란집 위치 지도" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=%EB%8C%80%EA%B5%AC%20%EC%A4%91%EA%B5%AC%20%EA%B5%AD%EC%B1%84%EB%B3%B4%EC%83%81%EB%A1%9C%20704-11&amp;z=17&amp;output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <img src="pz-house.webp" alt="" width="300" height="373" loading="lazy" />
+    <p>파란집 · 대구 중구 국채보상로 704-11 1층 · 0507-1335-2691<br />@paran_zip · © 파란집</p>
+  </div>
+</footer>
+
+<div class="quick" aria-label="빠른 연결">
+  <a class="fill" href="tel:050713352691">전화 문의</a>
+  <a href="https://www.instagram.com/paran_zip/" target="_blank" rel="noopener">인스타그램</a>
+  <a href="https://map.naver.com/p/entry/place/2035292623" target="_blank" rel="noopener">길찾기</a>
+</div>
+
+<script>
+(function(){
+  /* 리빌 */
+  var pending=[].slice.call(document.querySelectorAll('.reveal'));
+  pending.forEach(function(el){
+    var sib=[].slice.call(el.parentNode.children).filter(function(c){ return c.classList.contains('reveal'); });
+    if(sib.length>1 && !el.style.getPropertyValue('--d')){ el.style.setProperty('--d',(Math.min(sib.indexOf(el),4)*0.06)+'s'); }
+  });
+  var t=setInterval(function(){
+    if(!pending.length){ clearInterval(t); return; }
+    if(window.innerHeight + window.pageYOffset >= document.documentElement.scrollHeight - 4){
+      pending.forEach(function(el){ el.classList.add('in'); }); pending=[]; return;
+    }
+    var line=window.innerHeight*0.92;
+    pending=pending.filter(function(el){
+      if(el.getBoundingClientRect().top < line){ el.classList.add('in'); return false; }
+      return true;
+    });
+  },120);
+  /* 앵커 스크롤 */
+  var head=document.querySelector('.site-head');
+  [].forEach.call(document.querySelectorAll('a[href^="#"]'),function(a){
+    a.addEventListener('click',function(e){
+      var id=a.getAttribute('href'); var el=id==='#top'?document.body:document.querySelector(id);
+      if(!el) return; e.preventDefault();
+      var start=window.pageYOffset, end=id==='#top'?0:el.getBoundingClientRect().top+start-head.offsetHeight+1;
+      var t0=Date.now(), dur=520;
+      var iv=setInterval(function(){
+        var p=Math.min((Date.now()-t0)/dur,1), e2=p<.5?2*p*p:1-Math.pow(-2*p+2,2)/2;
+        window.scrollTo(0,start+(end-start)*e2);
+        if(p>=1) clearInterval(iv);
+      },16);
+    });
+  });
+})();
+</script>
+</body>
+</html>
